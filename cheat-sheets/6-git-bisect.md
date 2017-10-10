@@ -28,5 +28,5 @@ git bisect reset
 
 ```
 git bisect start <bad-revision> <good-revision>
-git bisect run ls password.txt
+git bisect run ! test -f password.txt
 ```
